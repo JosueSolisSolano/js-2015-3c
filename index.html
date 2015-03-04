@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Resumen Java Script</title>
+</head>
+<body>
+	<ul>
+		<li>
+			<h2>Objectos</h3>
+			<p>Contienen propiedades y las propiedades nombre y valor.</p>
+			<p>Pueden contener otros objectos dentro.</p>
+			<p>Son "CLASES GRATIS" class-free en JS</p>
+			<code>
+				<pre>
+	var object={};
+					
+	var store = {
+	"fist-name" : "Josue",
+	"last-name" : "Solis"
+	};
+
+	var flight = {
+	    airline: "Oceanic",
+	    number: 815,
+	    departure: {
+	        IATA: "SYD",
+	        time: "2004-09-22 14:55",
+	        city: "Sydney"
+	    },
+	    arrival: {
+	        IATA: "LAX",
+	        time: "2004-09-23 10:42",
+	        city: "Los Angeles"
+	    }
+	};
+				</pre>
+			</code>
+		<h3>Llamado</h3>
+		<code>flight.departure.IATA    // "SYD"</code>	
+		<h3>Editar</h3>
+		<code>stooge['first-name'] = 'Jerome';</code>
+		<h3>Referencia</h3>
+		<code>
+			<pre>
+var x = stooge;
+x.nickname = 'Curly';
+var nick = stooge.nickname;
+    // nick is 'Curly' because x and stooge
+	// are references to the same object			
+			</pre>
+		</code>		
+		</li>
+	</ul>
+</body>
+</html>
