@@ -1,0 +1,16 @@
+h1{
+	color: blue;
+}
+
+h3{
+	color: orange;
+}
+
+code,pre{
+	max-width: 30%;
+	background: silver;
+}
+
+p{
+	max-width: 60%;
+}
